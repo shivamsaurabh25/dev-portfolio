@@ -7,7 +7,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     "Projects", "Certifications", "Blog", "Testimonials", "Contact"
   ];
 
-  // Close mobile menu on window resize (>= md)
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth >= 768) setOpen(false);
@@ -23,7 +22,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           👨‍💻 DevPortfolio
         </a>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-6">
           {links.map((link) => (
             <a
@@ -44,7 +42,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           </button>
         </div>
 
-        {/* Mobile Toggle */}
         <button
           onClick={() => setOpen(!open)}
           className="text-2xl md:hidden text-gray-800 dark:text-white"
@@ -54,7 +51,6 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-white dark:bg-gray-900 px-6 pb-4 rounded-b-xl">
           {links.map((link) => (

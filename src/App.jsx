@@ -12,15 +12,14 @@ import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 
-// Floating decoration component
 const FloatingDecoration = () => {
-  const dots = Array.from({ length: 40 }); // Increase from 10 to 40
+  const dots = Array.from({ length: 40 });
 
   return (
     <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
       {dots.map((_, i) => {
-        const size = Math.random() * 4 + 2; // 2px to 6px
-        const duration = Math.random() * 5 + 5; // 5s to 10s
+        const size = Math.random() * 4 + 2;
+        const duration = Math.random() * 5 + 5;
         const delay = Math.random() * 5;
 
         return (

@@ -42,7 +42,7 @@ const Blog = () => {
   }, [controls, inView]);
 
   return (
-    <section ref={ref} className="blog container section" id="blog">
+    <section ref={ref} className="blog container section pt-10 pb-10" id="blog">
       <motion.h2
         className="section__title text-center text-3xl font-bold mb-10 text-gray-900 dark:text-white"
         initial={{ opacity: 0, y: 20 }}

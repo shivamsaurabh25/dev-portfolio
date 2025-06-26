@@ -125,7 +125,7 @@ const Projects = () => {
   return (
     <motion.section
       id="projects"
-      className="py-20 px-4 max-w-6xl mx-auto"
+      className="pt-10 pb-10 px-4 max-w-6xl mx-auto"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}

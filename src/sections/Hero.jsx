@@ -2,9 +2,7 @@ import React from 'react';
 import { motion } from "framer-motion";
 
 const Hero = () => (
-  <section id="hero" className="py-20 px-4 max-w-6xl mx-auto text-center flex flex-col items-center">
-    
-    {/* Glowing Circle Image */}
+  <section id="hero" className="pt-20 pb-10 px-4 max-w-6xl mx-auto text-center flex flex-col items-center">
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
@@ -13,13 +11,12 @@ const Hero = () => (
     >
       <div className="w-40 h-40 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 animate-pulse-slow absolute top-0 left-0 blur-2xl opacity-40"></div>
       <img
-        src="https://iili.io/FnmarP4.jpg" // 🖼 Replace with your image path
+        src="https://iili.io/FnmarP4.jpg"
         alt="My Photo"
         className="w-40 h-40 object-cover rounded-full border-4 border-white dark:border-gray-800 relative z-10 shadow-lg"
       />
     </motion.div>
 
-    {/* Your Name */}
     <motion.h1
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -29,7 +26,6 @@ const Hero = () => (
       Hi, I'm <span className="text-indigo-500">Shivam Saurabh</span>
     </motion.h1>
 
-    {/* Description */}
     <motion.p
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

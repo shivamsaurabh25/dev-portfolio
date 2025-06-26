@@ -54,7 +54,7 @@ const Contact = ({ theme }) => {
   };
 
   return (
-    <section className="py-20 px-4 max-w-6xl mx-auto" id="contact">
+    <section className="pt-10 pb-10 px-4 max-w-6xl mx-auto" id="contact">
       <motion.h2
         className="text-3xl font-bold text-center text-gray-900 dark:text-white"
         initial={{ opacity: 0, y: 20 }}

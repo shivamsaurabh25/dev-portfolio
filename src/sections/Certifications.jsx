@@ -44,7 +44,7 @@ const fadeInVariant = {
 
 const Certifications = () => {
   return (
-    <section className="container mx-auto px-4 py-16" id="certifications">
+    <section className="container mx-auto px-4 pt-10 pb-10" id="certifications">
       <h2 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
         Certifications
       </h2>

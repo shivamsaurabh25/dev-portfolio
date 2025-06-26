@@ -13,17 +13,15 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 py-10">
+    <footer className="bg-gray-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 pt-10 pb-5">
       <div className="container max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           
-          {/* Developer Credit */}
           <div className="text-center md:text-left">
             <h2 className="text-xl font-semibold">Built with 💙 by Shivam Saurabh</h2>
             <p className="text-sm mt-1">© {year} All rights reserved.</p>
           </div>
 
-          {/* Social Links */}
           <div className="flex gap-5 text-2xl flex-wrap justify-center">
             <a
               href="mailto:shivamsaurabh2862@gmail.com"
@@ -89,7 +87,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Note */}
         <div className="text-center mt-6 text-sm text-gray-500 dark:text-gray-400">
           Powered by React, Tailwind CSS, and ❤️ from India.
         </div>

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css"; // Optional
+import "react-tabs/style/react-tabs.css";
 
-// Experience Data
 const WorkExperience = [
   {
     id: 1,
@@ -26,7 +25,6 @@ const WorkExperience = [
   },
 ];
 
-// Styled Button
 const Button = ({ children }) => (
   <motion.button
     whileHover={{ scale: 1.05 }}
@@ -43,7 +41,7 @@ const Experience = () => {
   return (
     <motion.section
       id="experience"
-      className="py-20 px-4 max-w-6xl mx-auto"
+      className="pt-10 pb-10 px-4 max-w-6xl mx-auto"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}

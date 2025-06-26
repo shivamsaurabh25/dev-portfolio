@@ -8,7 +8,7 @@ const Testimonials = () => {
   const data = [
     {
       id: 1,
-      image: 'https://i.pravatar.cc/150?img=32', // Random online avatar
+      image: 'https://i.pravatar.cc/150?img=32',
       title: 'EdgeIntern',
       subtitle: 'Online Internship',
       comment: 'Congratulations on your achievements! Wishing you all the best in your future endeavours!',
@@ -30,7 +30,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="testimonials container section" id="testimonials">
+    <section className="testimonials container section pt-10 pb-10" id="testimonials">
       <h2 className="section__title text-center text-3xl font-bold mb-10 text-gray-900 dark:text-white">Testimonials</h2>
 
       <Swiper

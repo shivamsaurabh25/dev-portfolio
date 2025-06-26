@@ -39,7 +39,7 @@ const About = () => {
   return (
     <motion.section
       id="about"
-      className="about container section py-20 px-4 max-w-4xl mx-auto flex flex-col justify-center items-center text-center"
+      className="about container section pt-10 pb-10 px-4 max-w-4xl mx-auto flex flex-col justify-center items-center text-center"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
