@@ -5,6 +5,7 @@ import certificate1Pdf from '../assets/KYP.pdf';
 import certificate2Pdf from '../assets/ADCA.pdf';
 import certificate3Pdf from '../assets/Internship.pdf';
 import certificate4Pdf from '../assets/ReactBootcamp.pdf';
+import certificate5Pdf from '../assets/AWS.pdf';
 
 const certifications = [
   {
@@ -26,6 +27,11 @@ const certifications = [
     id: 4,
     image: "https://iili.io/2bT9ScB.md.jpg",
     pdfLink: certificate4Pdf,
+  },
+  {
+    id: 5,
+    image: "https://iili.io/FVONHZP.md.jpg",
+    pdfLink: certificate5Pdf,
   }
 ];
 

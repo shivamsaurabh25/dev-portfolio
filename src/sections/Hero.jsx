@@ -11,7 +11,7 @@ const Hero = () => (
     >
       <div className="w-40 h-40 rounded-full bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 animate-pulse-slow absolute top-0 left-0 blur-2xl opacity-40"></div>
       <img
-        src="https://iili.io/FnmarP4.jpg"
+        src="https://iili.io/FGDKtEl.md.jpg"
         alt="My Photo"
         className="w-40 h-40 object-cover rounded-full border-4 border-white dark:border-gray-800 relative z-10 shadow-lg"
       />
