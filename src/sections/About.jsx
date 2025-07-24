@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Resume from '../assets/Resume.pdf';
 import { TypeAnimation } from 'react-type-animation';
 import { RiFireLine, RiCupLine, RiGroupLine, RiTrophyLine } from 'react-icons/ri';
 
 const About = () => {
+  const [repoCount, setRepoCount] = useState(0);
+
+  useEffect(() => {
+    const fetchGitHubStats = async () => {
+      try {
+        const response = await fetch('https://api.github.com/users/shivamsaurabh25');
+        const data = await response.json();
+        setRepoCount(data.public_repos);
+      } catch (error) {
+        console.error('Error fetching GitHub data:', error);
+      }
+    };
+
+    fetchGitHubStats();
+  }, []);
+
   const downloadResume = () => {
     window.open(Resume, '_blank');
   };
@@ -19,8 +35,8 @@ const About = () => {
     {
       id: 2,
       icon: <RiCupLine className="about__icon text-indigo-600 dark:text-indigo-400 text-3xl" />,
-      title: "18",
-      subtitle: "Github Repositories",
+      title: `${repoCount}`,
+      subtitle: "GitHub Repositories",
     },
     {
       id: 3,
