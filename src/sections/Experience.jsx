@@ -15,6 +15,18 @@ const WorkExperience = [
   },
   {
     id: 2,
+    title: "Internship",
+    company: "Kodbud",
+    yearsActive: "Aug 2025 - Sept 2025",
+    information: [
+      "Build a Responsive Portfolio Website",
+      "Create a Todo List with CRUD Operations",
+      "Build a Weather App using OpenWeatherMap API",
+      "React Image Gallery",
+    ],
+  },
+  {
+    id: 3,
     title: "Frontend Developer",
     company: "Freelance",
     yearsActive: "Jan 2024 - Present",

@@ -6,6 +6,8 @@ import certificate2Pdf from '../assets/ADCA.pdf';
 import certificate3Pdf from '../assets/Internship.pdf';
 import certificate4Pdf from '../assets/ReactBootcamp.pdf';
 import certificate5Pdf from '../assets/AWS.pdf';
+import certificate6Pdf from '../assets/Kodbud.pdf';
+import certificate7Pdf from '../assets/Ethical Hacking.pdf';
 
 const certifications = [
   {
@@ -32,7 +34,18 @@ const certifications = [
     id: 5,
     image: "https://iili.io/FVONHZP.md.jpg",
     pdfLink: certificate5Pdf,
+  },
+  {
+    id: 6,
+    image: "https://iili.io/KoLkXu1.md.jpg",
+    pdfLink: certificate6Pdf,
+  },
+  {
+    id: 7,
+    image: "https://iili.io/FvJtRlR.md.jpg",
+    pdfLink: certificate7Pdf,
   }
+
 ];
 
 const fadeInVariant = {

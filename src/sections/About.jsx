@@ -29,7 +29,7 @@ const About = () => {
     {
       id: 1,
       icon: <RiFireLine className="about__icon text-indigo-600 dark:text-indigo-400 text-3xl" />,
-      title: "1",
+      title: "2",
       subtitle: "Months of Experience",
     },
     {
