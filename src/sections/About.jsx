@@ -97,7 +97,7 @@ const About = () => {
       >
         <p className="about__description text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
           Hello! I'm <strong>Shivam</strong>, and I'm based in <strong>Bihar, India</strong>. Currently, I study at <strong>Nalanda College Biharsharif</strong>,
-          where I am pursuing my <strong>BCA degree (2nd year)</strong>.
+          where I am pursuing my <strong>BCA degree (3rd year)</strong>.
           <br /><br />
           Fast forward to today, and I can honestly say it's been a beautiful journey. I hope to grow even further as a <strong>Software Engineer</strong>.
           My current focus these days is on expanding my portfolio by building projects that I can add here, as well as being a great team player in my current role.
